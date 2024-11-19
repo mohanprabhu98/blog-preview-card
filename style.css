@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ||GENERAL STUDIES */
+body {
+    font-family:"figtree" ;
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* || CARD PROPERTIES */
+.card-img img{
+    border-radius: 10px;
+}
+.card {
+    background-color: white;
+    width: 375px;
+    height: auto;
+    padding:1rem;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: grid;
+    gap:1rem;
+    box-shadow: 5px 5px #000;
+}
+.button {
+    background-color: hsl(47, 88%, 63%);
+    padding:.5rem;
+    border-radius: 5px;
+    width:80px
+}
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, 
+a:focus {
+    color:hsl(47, 88%, 63%);
+}
+.discription {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+}
+.author-img img{
+    width:15%;
+}
+.author-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
